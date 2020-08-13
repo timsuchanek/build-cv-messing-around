@@ -1,13 +1,8 @@
 {
   "dependencies": {
-    "@prisma/client": "^2.4.1",
-    "@react-pdf/renderer": "^1.6.10",
-    "@react-pdf/styled-components": "^1.4.0",
-    "axios": "^0.19.2",
     "next": "^9.5.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "styled-components": "^5.1.1"
+    "react-dom": "^16.13.1"
   },
   "scripts": {
     "dev": "next dev",
@@ -16,9 +11,5 @@
     "db-up": "prisma migrate up --experimental",
     "gen": "prisma generate",
     "combo": "yarn db && yarn gen"
-  },
-  "devDependencies": {
-    "@prisma/cli": "^2.4.1",
-    "babel-plugin-styled-components": "^1.11.1"
   }
 }

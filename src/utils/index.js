@@ -1,3 +1,3 @@
-export * from "./prismaClient";
+export { ls } from "./ls";
 
-export * from "./startingForm";
+export { startingForm } from "./startingForm";
